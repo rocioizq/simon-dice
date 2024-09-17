@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100,200,300,400,500,600,700,800,900;1,100,200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.simon {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-container {
+    display: inline-grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto;
+}
+
+.cuadro {
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.cuadro.active {
+    filter: brightness(150%) contrast(120%);
+}
+
+.disabled {
+    pointer-events: none; 
+    opacity: 0.6; 
+}
+
+.rojo {
+    background-color: #EE6352;
+}
+
+.azul {
+    background-color: #08B2E3;
+}
+
+.verde {
+    background-color: #57A773;
+}
+
+.amarillo {
+    background-color: #FFDF64;
+}
+
+#start {
+    width: 100px;
+    margin: 0 auto 20px;
+    display: block;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #587792;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+#start:disabled {
+    background-color: #eee;
+}
+
+#reset.hidden {
+    display: none;
+}
+
+#reset {
+    padding: .8em;
+    border: none;
+    background-color: #f5dedb;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+#reset:hover {
+    cursor: pointer;
+    background-color: #ff4e33;
+    color: white;
+} 
+
+#turno, #ronda {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.winner {
+    animation: spin 1s ease-in-out;
+}
+
+@keyframes spin { 
+    100% { transform:rotate(180deg) } 
+}
+
+.block {
+    pointer-events: none;
+}
+
