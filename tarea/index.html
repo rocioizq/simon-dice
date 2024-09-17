@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simón dice</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="simon">
+        <h1>Simón Dice</h1>
+        <button id="start">Empezar</button>
+
+        <div class ="btn-container">
+            <div class="cuadro rojo"></div>
+            <div class="cuadro amarillo"></div>
+            <div class="cuadro azul"></div>
+            <div class="cuadro verde"></div>
+        </div>
+        
+        <p id="turno">Turno: --</p>
+        <button id="reset" class="hidden">Reiniciar</button>
+
+    </div>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
