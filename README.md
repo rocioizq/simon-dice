@@ -5,3 +5,4 @@ Ejemplo de juego simon dice para r/Argentina programa
 
 Correr
 `npm install` 
+# Live Site: https://simon-dice-woad.vercel.app/
