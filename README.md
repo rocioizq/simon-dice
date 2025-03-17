@@ -1,31 +1,32 @@
-# 🎮 Simon Dice
+# 🎮 Simón Dice  
 
-A **Simon Dice** game where players need to repeat a sequence of colors shown by the game. The sequence grows longer as the player progresses, and the goal is to match the correct sequence to win.
+Un juego de **Simón Dice** donde los jugadores deben repetir una secuencia de colores mostrada por el juego. La secuencia se vuelve más larga a medida que el jugador avanza, y el objetivo es seguir la secuencia correcta para ganar.  
 
-🔗 **[Live Demo](https://simon-dice.vercel.app/)**  
+🔗 **[Demo en Vivo](https://simon-dice.vercel.app/)**  
 
-## ✨ Features  
-✔️ **Game functionality** – A sequence of colors is shown, and the player must repeat it.  
-✔️ **Score tracking** – Tracks the player's score based on the number of correct sequences.  
-✔️ **Responsive design** – Works well on both desktop and mobile devices.  
-✔️ **Sound effects** – Audio cues for each color to enhance the game experience.  
-✔️ **Minimalist UI** – Simple and engaging interface for a smooth user experience.
+## ✨ Características  
+✔️ **Funcionalidad del juego** – Se muestra una secuencia de colores y el jugador debe repetirla.  
+✔️ **Registro de puntaje** – Rastrea la puntuación del jugador según el número de secuencias correctas.  
+✔️ **Diseño responsive** – Funciona bien tanto en dispositivos de escritorio como móviles.  
+✔️ **Efectos de sonido** – Sonidos para cada color que mejoran la experiencia de juego.  
+✔️ **Interfaz minimalista** – Diseño simple y atractivo para una experiencia fluida.  
 
-## 🛠️ Technologies Used  
-- **HTML5** – Structure and content elements.  
-- **CSS3** – Styling and layout for a responsive design.  
-- **JavaScript** – Handles game logic, interactions, and sequence tracking.
+## 🛠️ Tecnologías Utilizadas  
+- **HTML5** – Estructura y contenido del juego.  
+- **CSS3** – Estilos y diseño para una experiencia responsive.  
+- **JavaScript** – Manejo de la lógica del juego, interacciones y seguimiento de secuencias.  
 
-## 🚀 How to Run the Project Locally  
-1. Clone the repository:  
+## 🚀 Cómo Ejecutar el Proyecto Localmente  
+1. Clona el repositorio:  
     ```bash
     git clone https://github.com/rocioizq/simon-dice.git
     ```  
-2. Navigate to the project folder:  
+2. Accede a la carpeta del proyecto:  
     ```bash
     cd simon-dice
     ```  
-3. Open the `index.html` file in your browser.  
+3. Abre el archivo `index.html` en tu navegador.  
 
-## 📷 Screenshots  
-![Simon Dice Game](./design/simon-dice-game.jpg)
+## 📷 Capturas de Pantalla  
+![Juego Simón Dice](./design/simon-dice-game.jpg)  
+
