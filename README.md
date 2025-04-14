@@ -2,7 +2,7 @@
 
 Un juego de **Simón Dice** donde los jugadores deben repetir una secuencia de colores mostrada por el juego. La secuencia se vuelve más larga a medida que el jugador avanza, y el objetivo es seguir la secuencia correcta para ganar.  
 
-🔗 **[Demo en Vivo](https://simon-dice.vercel.app/)**  
+🔗 **[Demo en Vivo](https://simon-dice-woad.vercel.app/)**  
 
 ## ✨ Características  
 ✔️ **Funcionalidad del juego** – Se muestra una secuencia de colores y el jugador debe repetirla.  
